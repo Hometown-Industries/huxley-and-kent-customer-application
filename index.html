@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="z-depth-3 pa mt-2 mb-2 mr-1 ml-1 bg-white">
+      <form method="POST">
+        <h2 class="center-align">Huxley and Kent Customer Application</h1>
+          <br />
+          <h5 class="left-align">Business Information:</h5>
+          <!-- name -->
+          <div class="row">
+            <div class="input-field col s12">
+              <label for="retailerName">Retailer Name</label>
+              <input id="retailerName" class="validate" type="text" name="name" />
+            </div>
+          </div>
+          <!-- retailer name and the telephone number fields -->
+          <div class="row">
+            <!-- Telephone Number field -->
+            <div class="input-field col s6">
+              <label for="telephoneNumber">Telephone Number</label>
+              <input id="telephoneNumber" type="text" name="name" />
+            </div>
+            <!-- Fax Number field -->
+            <div class="input-field col s6">
+              <label for="faxNumber">Fax Number</label>
+              <input id="faxNumber" type="text" name="name" />
+            </div>
+          </div>
+          <!-- website address -->
+          <div class="row">
+            <div class="input-field col s12">
+              <label for="email">Website Address</label>
+              <input id="email" class="validate" type="text" name="name" />
+            </div>
+          </div>
+          <!-- billing address -->
+          <div class="row">
+            <div class="input-field col s12">
+              <label for="billingAddress">Billing Address</label>
+              <input id="billingAddress" class="validate" type="text" name="name" />
+            </div>
+          </div>
+          <!-- city and state fields -->
+          <div class="row">
+            <!-- city field -->
+            <div class="input-field col s6">
+              <label for="telephoneNumber">City</label>
+              <input id="telephoneNumber" type="text" name="name" />
+            </div>
+            <!-- state field -->
+            <div class="input-field col s6">
+              <label for="faxNumber">State</label>
+              <input id="faxNumber" type="text" name="name" />
+            </div>
+          </div>
+          <!-- postal code and number of location fields -->
+          <div class="row">
+            <!-- postal code -->
+            <div class="input-field col s6">
+              <label for="postalCode">Postal Code</label>
+              <input id="postalCode" type="text" name="name" />
+            </div>
+            <!-- number of locations -->
+            <div class="input-field col s6">
+              <label for="numberOfLocations">Number Of Store Locations</label>
+              <input id="numberOfLocations" type="text" name="name" />
+            </div>
+          </div>
+
+          <br />
+          <h5 class="left-align">Shipping Information:</h5>
+
+          <!-- Shipping Address -->
+          <div class="row">
+            <div class="input-field col s12">
+              <label for="shippingAddress">Shipping Address</label>
+              <input id="shippingAddress" class="validate" type="text" name="name" />
+            </div>
+          </div>
+          <!-- city and state fields -->
+          <div class="row">
+            <!-- city field -->
+            <div class="input-field col s6">
+              <label for="shippingCity">City</label>
+              <input id="shippingcity" type="text" name="name" />
+            </div>
+            <!-- state field -->
+            <div class="input-field col s6">
+              <label for="shippingState">State</label>
+              <input id="shippingState" type="text" name="name" />
+            </div>
+          </div>
+          <!-- Postal Code -->
+          <div class="row">
+            <div class="input-field col s12">
+              <label for="shippingPostalCode">Postal Code</label>
+              <input id="shippingPostalCode" class="validate" type="text" name="name" />
+            </div>
+          </div>
+
+          <br />
+          <h5 class="left-align">Contact Information:</h5>
+
+          <!-- owner's name and email fields -->
+          <div class="row">
+            <!-- owner's name field -->
+            <div class="input-field col s6">
+              <label for="ownersName">Owner's Name</label>
+              <input id="ownersName" type="text" name="name" />
+            </div>
+            <!-- owner's email field -->
+            <div class="input-field col s6">
+              <label for="ownersEmail">Owner's Email</label>
+              <input id="ownersEmail" type="email" name="_replyto" />
+            </div>
+          </div>
+          <!-- Buyers Name -->
+          <div class="row">
+            <div class="input-field col s12">
+              <label for="shippingPostalCode">Buyers Name</label>
+              <input id="shippingPostalCode" class="validate" type="text" name="name" />
+            </div>
+          </div>
+
+          <!-- Buyers title/position buyers email -->
+          <div class="row">
+            <!-- Buyer's title field -->
+            <div class="input-field col s6">
+              <label for="buyersTitle">Buyer's Title/Position</label>
+              <input id="buyersTitle" type="text" name="name" />
+            </div>
+            <!-- Buyer's email field -->
+            <div class="input-field col s6">
+              <label for="buyersEmail">Buyer's Email</label>
+              <input id="buyersEmail" type="email" name="_replyto" />
+            </div>
+          </div>
+
+          <br />
+          <h5 class="left-align">Company Information:</h5>
+
+          <!-- federal tax id and state tax exempt # fields -->
+          <div class="row">
+            <!-- federal tax id field -->
+            <div class="input-field col s6">
+              <label for="ownersName">Federal Tax ID</label>
+              <input id="ownersName" type="text" name="name" />
+            </div>
+            <!-- state tax exempt # field -->
+            <div class="input-field col s6">
+              <label for="stateTaxExempt">State Tax Exempt #</label>
+              <input id="stateTaxExempt" type="text" name="name" />
+            </div>
+          </div>
+
+          <!-- year established and number of employees -->
+          <div class="row">
+            <!-- Year Established field -->
+            <div class="input-field col s6">
+              <label for="yearEstablished">Year Established</label>
+              <input id="yearEstablished" type="text" name="name" />
+            </div>
+            <!-- Number Of Employees field -->
+            <div class="input-field col s6">
+              <label for="numberOfEmployees">Number Of Employees</label>
+              <input id="numberOfEmployees" type="text" name="name" />
+            </div>
+          </div>
+
+          <!-- type of business and business location type -->
+          <div class="row">
+            <!-- Type Of Business field -->
+            <div class="input-field col s6">
+              <label for="typeOfBusiness">Type Of Business</label>
+              <input id="typeOfBusiness" type="text" name="name" />
+            </div>
+            <!-- Business Location Type field -->
+            <div class="input-field col s6">
+              <label for="businessLocationType">Business Location Type</label>
+              <input id="businessLocationType" type="text" name="name" />
+            </div>
+          </div>
+
+          <br />
+          <h5 class="left-align">Trade Reference:</h5>
+
+          <!-- trade and contact -->
+          <div class="row">
+            <!-- Trade field -->
+            <div class="input-field col s6">
+              <label for="trade">Trade</label>
+              <input id="trade" type="text" name="name" />
+            </div>
+            <!-- Contact field -->
+            <div class="input-field col s6">
+              <label for="contact">Contact</label>
+              <input id="contact" type="text" name="name" />
+            </div>
+          </div>
+
+          <!-- account number and telephone number -->
+          <div class="row">
+            <!-- Account Number field -->
+            <div class="input-field col s6">
+              <label for="tradeAccountNumber">Account Number</label>
+              <input id="tradeAccountNumber" type="text" name="name" />
+            </div>
+            <!-- Telephone Number field -->
+            <div class="input-field col s6">
+              <label for="tradeTelephoneNumber">Telephone Number</label>
+              <input id="tradeTelephoneNumber" type="text" name="name" />
+            </div>
+          </div>
+
+          <!-- trade email -->
+          <div class="row">
+            <div class="input-field col s12">
+              <label for="tradeEmail">Email</label>
+              <input id="tradeEmail" class="validate" type="email" name="_replyto" />
+            </div>
+          </div>
+
+          <br />
+          <h5 class="left-align">Comments Or Questions:</h5>
+
+          <!-- textarea for comments and questions -->
+          <div class="row">
+            <div class="input-field col s12">
+              <label for="textarea">Please add any comments or questions for us here
+              </label>
+              <textarea id="textarea" class="materialize-textarea" type="text" name="message"></textarea>
+            </div>
+          </div>
+
+          <br />
+          <h5 class="left-align">Huxley And Kent Online Ordering</h5>
+          <p class="">After your account is approved, would you like to have us activate your online ordering account?
+            Once activated, you will receive an email containing the site’s address, your login and password.</p>
+          <p>
+            <label>
+              <input name="group1" type="radio" checked />
+              <span>Yes</span>
+            </label>
+          </p>
+          <p>
+            <label>
+              <input name="group1" type="radio" />
+              <span>No</span>
+            </label>
+          </p>
+
+          <br />
+          <h5 class="left-align">Signature:</h5>
+          <p>All products offered for sale purchased from Huxley and Kent will adhere to Huxley and Kent’s pricing
+            policy. Any
+            special promotions involving products acquired through Huxley and Kent must be pre-approved by Huxley and
+            Kent.
+            Failure to comply with this pricing policy may result in the termination of your vendor account.
+            By checking the box and initialing below, I understand and accept the above condition(s) and can verify that
+            all of the above information is true to the best of my knowledge.</p>
+
+           <p>I verify the above information and accept the above terms</p>
+           
+            <p>
+              <label>
+                <input name="group1" type="radio" />
+                <span>Yes</span>
+              </label>
+            </p>
+
+            <p>
+              <label>
+                <input name="group1" type="radio" />
+                <span>No</span>
+              </label>
+            </p>
+
+          <!-- Signature -->
+          <div class="row">
+            <div class="input-field col s12">
+              <label for="signature">Type Full Name Here</label>
+              <input id="signature" class="validate" type="text" name="name" />
+            </div>
+          </div>
+
+          <br />
+
+          <!-- This is the submit button -->
+          <p class="center-align">
+            <button class="btn btn-large waves-effect waves-light" type="submit" value="Send">
+            Submit
+            <i class="material-icons right">send</i>
+          </button>
+          </p>
+      </form>
+    </div>
+
+  </div>
+
+  <style>
+    body {
+      background: #f5f5f5;
+    }
+
+    .bg-white {
+      background: white;
+    }
+
+    .pa {
+      padding: 1rem;
+    }
+
+    .mt-2 {
+      margin-top: 2rem;
+    }
+
+    .mb-2 {
+      margin-bottom: 2rem;
+    }
+
+    .mr-1 {
+      margin-right: 1rem;
+    }
+
+    .ml-1 {
+      margin-left: 1rem;
+    }
+  </style>
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
