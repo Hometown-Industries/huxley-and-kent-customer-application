@@ -413,9 +413,13 @@
 
           <!-- Signature -->
           <div class="row">
-            <div class="input-field col s12">
+            <div class="input-field col s8">
               <label for="signature">Type Full Name Here</label>
               <input id="signature" class="validate" type="text" name="name" />
+            </div>
+            <div class="input-field col s4">
+              <label for="date">Date</label>
+              <input id="date" class="datepicker" type="text" name="name" />
             </div>
           </div>
 
@@ -434,6 +438,10 @@
   <style>
     body {
       background: #f5f5f5;
+    }
+
+    #signature {
+      font-family: cursive;
     }
 
     .bg-white {
@@ -460,6 +468,14 @@
       margin-left: 1rem;
     }
   </style>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.datepicker');
+    var options = []
+    var instances = M.Datepicker.init(elems, options);
+  });
+  </script>
 
   <!--JavaScript at end of body for optimized loading-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
