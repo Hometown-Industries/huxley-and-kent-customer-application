@@ -21,6 +21,9 @@
           <h5 class="left-align">Business Information:</h5>
           <!-- name -->
           <div class="row">
+            <p class="hidden">
+              <label>Don’t fill this out if you're human: <input name="bot-field" tabindex="-1" autocomplete="off"/></label>
+            </p>
             <div class="input-field col s12">
               <label for="retailerName">Retailer Name</label>
               <input id="retailerName" class="validate" type="text" name="Retailer Name" required/>
@@ -442,6 +445,10 @@
 
     #signature {
       font-family: cursive;
+    }
+
+    .hidden {
+      display: none;
     }
 
     .bg-white {
