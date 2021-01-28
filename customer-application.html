@@ -28,7 +28,7 @@
                   autocomplete="off" /></label>
             </p>
             <div class="input-field col s12">
-              <label for="retailerName">Retailer Name</label>
+              <label for="retailerName">*Retailer Name</label>
               <input id="retailerName" class="validate" type="text" name="Retailer Name" required />
             </div>
           </div>
@@ -36,26 +36,26 @@
           <div class="row">
             <!-- Telephone Number field -->
             <div class="input-field col s6">
-              <label for="telephoneNumber">Telephone Number</label>
-              <input id="telephoneNumber" type="text" name="Retailer Telephone Number" required />
+              <label for="telephoneNumber">*Telephone Number</label>
+              <input id="telephoneNumber" class="validate" type="text" name="Retailer Telephone Number" required />
             </div>
             <!-- Fax Number field -->
             <div class="input-field col s6">
               <label for="faxNumber">Fax Number</label>
-              <input id="faxNumber" type="text" name="Retailer Fax Number" required />
+              <input id="faxNumber" type="text" name="Retailer Fax Number" />
             </div>
           </div>
           <!-- website address -->
           <div class="row">
             <div class="input-field col s12">
-              <label for="email">Website Address</label>
+              <label for="email">*Website Address</label>
               <input id="email" class="validate" type="text" name="Retailer Website Address" required />
             </div>
           </div>
           <!-- billing address -->
           <div class="row">
             <div class="input-field col s12">
-              <label for="billingAddress">Billing Address</label>
+              <label for="billingAddress">*Billing Address</label>
               <input id="billingAddress" class="validate" type="text" name="Retailer Billing Address" required />
             </div>
           </div>
@@ -63,26 +63,26 @@
           <div class="row">
             <!-- city field -->
             <div class="input-field col s6">
-              <label for="telephoneNumber">City</label>
-              <input id="telephoneNumber" type="text" name="Retail City" required />
+              <label for="telephoneNumber">*City</label>
+              <input id="telephoneNumber" class="validate" type="text" name="Retail City" required />
             </div>
             <!-- state field -->
             <div class="input-field col s6">
-              <label for="faxNumber">State</label>
-              <input id="faxNumber" type="text" name="Retail State" required />
+              <label for="faxNumber">*State</label>
+              <input id="faxNumber" class="validate" type="text" name="Retail State" required />
             </div>
           </div>
           <!-- postal code and number of location fields -->
           <div class="row">
             <!-- postal code -->
             <div class="input-field col s6">
-              <label for="postalCode">Postal Code</label>
-              <input id="postalCode" type="text" name="Retail Zip Code" required />
+              <label for="postalCode">*Postal Code</label>
+              <input id="postalCode" class="validate" type="text" name="Retail Zip Code" required />
             </div>
             <!-- number of locations -->
             <div class="input-field col s6">
-              <label for="numberOfLocations">Number Of Store Locations</label>
-              <input id="numberOfLocations" type="text" name="Retail Number Of Locations" required />
+              <label for="numberOfLocations">*Number Of Store Locations</label>
+              <input id="numberOfLocations" class="validate" type="text" name="Retail Number Of Locations" required />
             </div>
           </div>
 
@@ -92,7 +92,7 @@
           <!-- Shipping Address -->
           <div class="row">
             <div class="input-field col s12">
-              <label for="shippingAddress">Shipping Address</label>
+              <label for="shippingAddress">*Shipping Address</label>
               <input id="shippingAddress" class="validate" type="text" name="Shipping Address" required />
             </div>
           </div>
@@ -100,19 +100,23 @@
           <div class="row">
             <!-- city field -->
             <div class="input-field col s6">
-              <label for="shippingCity">City</label>
-              <input id="shippingcity" type="text" name="Shipping City" required />
+              <label for="shippingCity">*City</label>
+              <input id="shippingcity" class="validate" type="text" name="Shipping City" required />
             </div>
             <!-- state field -->
             <div class="input-field col s6">
-              <label for="shippingState">State</label>
-              <input id="shippingState" type="text" name="Shipping State" required />
+              <label for="shippingState">*State</label>
+              <input id="shippingState" class="validate" type="text" name="Shipping State" required />
             </div>
           </div>
-          <!-- Postal Code -->
+          <!-- Postal Code and Country -->
           <div class="row">
-            <div class="input-field col s12">
-              <label for="shippingPostalCode">Postal Code</label>
+            <div class="input-field col s6">
+              <label for="shippingCountry">*Country</label>
+              <input id="shippingCountry" class="validate" type="text" name="Shipping Country" required />
+            </div>
+            <div class="input-field col s6">
+              <label for="shippingPostalCode">*Postal Code</label>
               <input id="shippingPostalCode" class="validate" type="text" name="Shipping Zip Code" required />
             </div>
           </div>
@@ -124,27 +128,27 @@
           <div class="row">
             <!-- owner's name field -->
             <div class="input-field col s12">
-              <label for="ownersName">Owner's Name</label>
-              <input id="ownersName" type="text" name="Owner's Name" required />
+              <label for="ownersName">*Owner's Name</label>
+              <input id="ownersName" class="validate" type="text" name="Owner's Name" required />
             </div>
           </div>
           <!-- owner's telphone number and email -->
           <div class="row">
             <!-- owner's email field k-->
             <div class="input-field col s6">
-              <label for="ownersEmail">Owner's Email</label>
-              <input id="ownersEmail" type="email" name="Owner's Email" required />
+              <label for="ownersEmail">*Owner's Email</label>
+              <input id="ownersEmail" class="validate" type="email" name="Owner's Email" required />
             </div>
             <!-- owner's telephone number field -->
             <div class="input-field col s6">
               <label for="ownersTelNumber">Owner's Telephone Number</label>
-              <input id="ownersTelNumber" type="text" name="Owner's Telephone Number" required />
+              <input id="ownersTelNumber" type="text" name="Owner's Telephone Number" />
             </div>
           </div>
           <!-- Buyers Name -->
           <div class="row">
             <div class="input-field col s12">
-              <label for="shippingPostalCode">Buyer's Name</label>
+              <label for="shippingPostalCode">*Buyer's Name</label>
               <input id="shippingPostalCode" class="validate" type="text" name="Buyer's Name" required />
             </div>
           </div>
@@ -153,21 +157,21 @@
           <div class="row">
             <!-- Buyer's email field -->
             <div class="input-field col s6">
-              <label for="buyersEmail">Buyer's Email</label>
-              <input id="buyersEmail" type="email" name="Buyer's Email" required />
+              <label for="buyersEmail">*Buyer's Email</label>
+              <input id="buyersEmail" class="validate" type="email" name="Buyer's Email" required />
             </div>
             <!-- Buyer's telephone number field -->
             <div class="input-field col s6">
-              <label for="buyersTelNumber">Buyer's Telephone Number</label>
-              <input id="buyersTelNumber" type="text" name="Buyer's Telephone Number" required />
+              <label for="buyersTelNumber">*Buyer's Telephone Number</label>
+              <input id="buyersTelNumber" class="validate" type="text" name="Buyer's Telephone Number" required />
             </div>
           </div>
 
           <div class="row">
             <!-- Buyer's title field -->
             <div class="input-field col s12">
-              <label for="buyersTitle">Buyer's Title/Position</label>
-              <input id="buyersTitle" type="text" name="Buyer's Title" required />
+              <label for="buyersTitle">*Buyer's Title/Position</label>
+              <input id="buyersTitle" class="validate" type="text" name="Buyer's Title" required />
             </div>
           </div>
 
@@ -178,13 +182,13 @@
           <div class="row">
             <!-- federal tax id field -->
             <div class="input-field col s6">
-              <label for="ownersName">Federal Tax ID</label>
-              <input id="ownersName" type="text" name="Federal Tax ID" required />
+              <label for="ownersName">*Federal Tax ID</label>
+              <input id="ownersName" class="validate" type="text" name="Federal Tax ID" required />
             </div>
             <!-- state tax exempt # field -->
             <div class="input-field col s6">
-              <label for="stateTaxExempt">State Tax Exempt #</label>
-              <input id="stateTaxExempt" type="text" name="State Tax Exempt #" required />
+              <label for="stateTaxExempt">*State Tax Exempt #</label>
+              <input id="stateTaxExempt" class="validate" type="text" name="State Tax Exempt #" required />
             </div>
           </div>
 
@@ -193,12 +197,12 @@
             <!-- Year Established field -->
             <div class="input-field col s6">
               <label for="yearEstablished">Year Established</label>
-              <input id="yearEstablished" type="text" name="Year Established" required />
+              <input id="yearEstablished" type="text" name="Year Established" />
             </div>
             <!-- Number Of Employees field -->
             <div class="input-field col s6">
               <label for="numberOfEmployees">Number Of Employees</label>
-              <input id="numberOfEmployees" type="text" name="Number Of Employees" required />
+              <input id="numberOfEmployees" type="text" name="Number Of Employees" />
             </div>
           </div>
 
@@ -206,13 +210,13 @@
           <div class="row">
             <!-- Type Of Business field -->
             <div class="input-field col s6">
-              <label for="typeOfBusiness">Type Of Business</label>
-              <input id="typeOfBusiness" type="text" name="Type Of Business" required />
+              <label for="typeOfBusiness">*Type Of Business</label>
+              <input id="typeOfBusiness" class="validate" type="text" name="Type Of Business" required />
             </div>
             <!-- Business Location Type field -->
             <div class="input-field col s6">
-              <label for="businessLocationType">Business Location Type</label>
-              <input id="businessLocationType" type="text" name="Business Location Type" required />
+              <label for="businessLocationType">*Business Location Type</label>
+              <input id="businessLocationType" class="validate" type="text" name="Business Location Type" required />
             </div>
           </div>
 
@@ -226,13 +230,13 @@
           <div class="row">
             <!-- Trade field -->
             <div class="input-field col s6">
-              <label for="trade1">Trade</label>
-              <input id="trade1" type="text" name="Trade 1." required />
+              <label for="trade1">*Trade</label>
+              <input id="trade1" class="validate" type="text" name="Trade 1." required />
             </div>
             <!-- Contact field -->
             <div class="input-field col s6">
-              <label for="trade1Contact">Contact</label>
-              <input id="trade1Contact" type="text" name="Trade 1. Contact" required />
+              <label for="trade1Contact">*Contact</label>
+              <input id="trade1Contact" class="validate" type="text" name="Trade 1. Contact" required />
             </div>
           </div>
 
@@ -240,27 +244,28 @@
           <div class="row">
             <!-- Account Number field -->
             <div class="input-field col s6">
-              <label for="trade1AccountNumber">Account Number</label>
-              <input id="trade1AccountNumber" type="text" name="Trade 1. Account Number" required />
+              <label for="trade1AccountNumber">*Account Number</label>
+              <input id="trade1AccountNumber" class="validate" type="text" name="Trade 1. Account Number" required />
             </div>
             <!-- Telephone Number field -->
             <div class="input-field col s6">
-              <label for="trade1TelephoneNumber">Telephone Number</label>
-              <input id="trade1TelephoneNumber" type="text" name="Trade 1. Telephone Number" required />
+              <label for="trade1TelephoneNumber">*Telephone Number</label>
+              <input id="trade1TelephoneNumber" class="validate" type="text" name="Trade 1. Telephone Number"
+                required />
             </div>
           </div>
 
           <!-- trade email and fax number -->
           <div class="row">
-            <div class="input-field col s6">
-              <label for="trade1Email">Email</label>
+            <div class="input-field col s12">
+              <label for="trade1Email">*Email</label>
               <input id="trade1Email" class="validate" type="email" name="Trade 1. Email" required />
             </div>
             <!-- Fax Number field -->
-            <div class="input-field col s6">
-              <label for="trade1FaxNumber">Fax Number</label>
+            <!-- <div class="input-field col s6">
+              <label for="trade1FaxNumber">*Fax Number</label>
               <input id="trade1FaxeNumber" type="text" name="Trade 1. Fax Number" required />
-            </div>
+            </div> -->
           </div>
 
           <br />
@@ -298,7 +303,7 @@
           <div class="row">
             <div class="input-field col s6">
               <label for="trade2Email">Email</label>
-              <input id="trade2Email" class="validate" type="email" name="Trade 2. Email" />
+              <input id="trade2Email" type="email" name="Trade 2. Email" />
             </div>
             <!-- Fax Number field -->
             <div class="input-field col s6">
@@ -342,7 +347,7 @@
           <div class="row">
             <div class="input-field col s6">
               <label for="trade3Email">Email</label>
-              <input id="trade3Email" class="validate" type="email" name="Trade 3. Email" />
+              <input id="trade3Email" type="email" name="Trade 3. Email" />
             </div>
             <!-- Fax Number field -->
             <div class="input-field col s6">
@@ -444,7 +449,8 @@
 
   <style>
     body {
-      background: #f5f5f5;
+      /* background: #f5f5f5; */
+      background: white;
     }
 
     #signature {
